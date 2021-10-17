@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap");
+
+:root {
+  --accent: #ffbe31;
+}
+
+.banner-container {
+  background-image: url("../../../images/banner.jpg");
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  position: absolute;
+}
+
+.dim {
+  background-color: black;
+  width: 100%;
+  height: 100%;
+  opacity: 35%;
+}
+
+.banner-front-image {
+  position: absolute;
+  top: 50%;
+  right: 5vw;
+  width: 15vw;
+  height: 25vw;
+  background-image: url("../../../images/front-banner.jpg");
+  background-size: cover;
+  background-position: center center;
+  transform: translate(-5vw, -50%);
+}
+
+.slogan-container {
+  width: fit-content;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  margin-left: 5vw;
+  color: white;
+  font-family: "Raleway", sans-serif;
+  font-size: 3.5rem;
+  font-weight: bold;
+}
+
+.banner-text-2 {
+  margin-left: 10vw;
+}
+
+#accent {
+  color: var(--accent);
+}
+
+.scroll-arrow {
+  position: absolute;
+  bottom: 5%;
+  left: 50%;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 1.4vw;
+  background-blend-mode: multiply;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: translate(-50%, -5%);
+  cursor: pointer;
+}
+
+.scroll-arrow:hover {
+  background-color: black;
+}
+
+.arrow {
+  color: white;
+  font-size: 30px;
+}
+
+.social-links {
+  font-family: "Raleway", sans-serif;
+  position: absolute;
+  top: 25%;
+  right: -5%;
+  transform: rotate(90deg) translate(5%, -25%);
+  color: black;
+  font-size: 24px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.social-links a {
+  color: white;
+  text-decoration: none;
+}
+
+.social-links a:hover {
+  color: var(--accent);
+}
+
+.social-line {
+  width: 32px;
+  height: 2px;
+  background-color: white;
+  margin-left: 1vw;
+  margin-right: 1vw;
+}
